@@ -3,19 +3,6 @@
 /*    width: 100%;*/
 /*}*/
 
-.container-principal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    /*height: 100%;*/
-    /*width: 100%;*/
-
-    height: auto;
-    width: auto;
-    min-height: 75%;
-}
-
 app-quadro {
     margin-right: 20px;
     border-radius: 20px;

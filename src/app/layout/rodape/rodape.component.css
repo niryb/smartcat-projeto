@@ -1,6 +1,18 @@
 .rodape-grupo {
     display: flex;
-    gap: 18px;
+    gap: 5px;
     font-size: 16px;
     align-items: center;
+}
+
+.rodape-grupo a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.rodape-grupo a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
 }

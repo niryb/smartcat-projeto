@@ -1,0 +1,45 @@
+.menu-lateral-container {
+    border: 1px solid black;
+    background-color: #a08ec8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 80%;
+    width: 86%;
+}
+
+.botao-ajuda {
+    flex-grow: 10;
+}
+
+.menu-lateral_titulo {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+mat-list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+mat-list-item span {
+    color: black;
+    display: inline-block;
+    width: 10%;
+}
+
+.menu-item:hover {
+    background-color: #848095;
+}
+
+.botao-ajuda {
+    /* TODO: Fazer com que esse botão fique no final da tela */
+}
+/* TODO: Depois a gente dê uma olhada em como deixar os ícones e os textos alinhados */

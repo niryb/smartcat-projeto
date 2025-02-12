@@ -1,7 +1,6 @@
 .card-tarefa-main {
     width: auto;
     height: auto;
-    padding: 10px;
 
 }
 
@@ -11,6 +10,7 @@
 
 mat-card {
     background-color: #bababf;
+    border: 1px solid #000000;
     border-radius: 10px;
     margin-bottom: 10px;
 }

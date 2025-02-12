@@ -1,39 +1,35 @@
-<!-- Considere colocar uma sidenav, é mais elegante -->
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav mode="side" opened>
+        <div class="menu-lateral-container">
+            <h1 class="menu-lateral-titulo">Funcionalidades</h1>
+            <mat-nav-list class="menu-lateral-botoes">
+                <button mat-button class="botao-menu">
+                    <mat-icon>add_circle</mat-icon>Adicionar
+                </button>
+                <button mat-button class="botao-menu">
+                    <mat-icon>settings</mat-icon>Configuração
+                </button>
+                <button mat-button class="botao-menu">
+                    <mat-icon>bar_chart</mat-icon>Progresso
+                </button>
+                <button mat-button class="botao-menu">
+                    <mat-icon>calendar_month</mat-icon>Cronograma
+                </button>
+                <button mat-button class="botao-menu">
+                    <mat-icon>share</mat-icon>Compartilhar
+                </button>
+                <button mat-button class="botao-menu ajuda">
+                    <mat-icon>info</mat-icon>Ajuda
+                </button>
+            </mat-nav-list>
+        </div>
+    </mat-sidenav>
 
-<div class="menu-lateral-container">
-    <span class="menu-lateral_titulo">Funcionalidades</span>
-    <mat-list class="menu-lateral_botoes" role="list">
-        <button class="botao-adicionar">
-            <mat-list-item class="menu-item" role="listitem">
-                <mat-icon>add_circle</mat-icon>Adicionar
-            </mat-list-item>
-        </button>
-        <button class="botao-configuracao">
-            <mat-list-item class="menu-item" role="listitem">
-                <span><mat-icon>settings</mat-icon>Configuração</span>
-            </mat-list-item>
-        </button>
-        <button class="botao-progresso">
-            <mat-list-item class="menu-item" role="listitem">
-                <span><mat-icon>bar_chart</mat-icon>Progresso</span>
-            </mat-list-item>
-        </button>
-        <button class="botao-cronograma">
-            <mat-list-item class="menu-item" role="listitem">
-                <span><mat-icon>calendar_month</mat-icon>Cronograma</span>
-            </mat-list-item>
-        </button>
-        <button class="botao-compartilhar">
-            <mat-list-item class="menu-item" role="listitem">
-                <span><mat-icon>share</mat-icon>Compartilhar</span>
-            </mat-list-item>
-        </button>
-        <button class="botao-ajuda">
-            <mat-list-item class="menu-item" role="listitem">
-                <span><mat-icon>info</mat-icon>Ajuda</span>
-            </mat-list-item>
-        </button>
-    </mat-list>
-</div>
+    <mat-sidenav-content>
+        <div class="conteudo">
+            <app-quadro></app-quadro>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
 
 <!-- TODO: Lembrar de configurar o roteamento -->
